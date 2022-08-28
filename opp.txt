@@ -1,0 +1,40 @@
+21/8
+
+mo phong nhan ng a va ng b 
+
+chu the:
+ng a, ng b
+dien thoai (van ban)
+ hanh dong:
+ nguoi a: nhan tin,bam dien thoai 
+ nguoi b: nhan tin, nhan tin, bam dien thoai 
+ dien thoai: ma hoa, truyen di, giai ma  
+
+ OOP
+
+ Object: 
+ Person:Class
+
+ Person("A"): Instance
+ Person("B"): Instance
+
+ Mobile: Class
+ Mobile("Iphone")
+ 
+ Messg
+ 
+28/8
+ Class and Instance
+
+4 thuoc tinh 
+a, tinh dong goi: bao mat cac bien, hanh vi hoat dong trong 1 class (private)
+b, tinh triu tuong: triu tuong hoa cac su vat 
+c, ke thua: class cha, class con 
+    class <name_cha>:
+    ....
+    class <name_con>(<name_cha)):
+d, tinh da hinh: lop cha dai dien de lam viec thay cho lop con 
+
+tim hieu cac ham data type, cach xu ly (CRUD)
+
+data base 
