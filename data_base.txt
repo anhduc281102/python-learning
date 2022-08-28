@@ -1,0 +1,9 @@
+data_base: luu va quan tri du lieu 
+cac kieu du lieu: quan he & phi quan he 
+a, co so du lieu quan he: la cac co so du lieu luu tru duoi dang bang
+    note: SQL & my SQL & SQL sever 
+    
+ tim hieu SQL 
+ tai sql sever 
+ sua code baidoxe 
+ tao bang class theo code (dung sql)

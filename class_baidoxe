@@ -1,0 +1,28 @@
+from time import time
+
+
+class baido:
+    def __init__(self, ten , sove, danhsach = []):
+        self.ten = ten
+        self.sove = sove
+        self.danhsach = danhsach
+    
+    def ghisove(self, name, sove, time ):
+        vevao = phuongtien(name,self.sove)
+        thoigianvao = camera(time)
+        self.danhsach.append(vevao, thoigianvao) 
+
+class phuongtien:
+    def __init__(self, name, bienso  ):
+        self.name = name 
+        self.bienso = bienso 
+    
+    def send(self, bienso, to):
+
+class camera:
+    def __init__(self, picture, time, ):
+        self.picture = picture
+        self.time = time 
+    def send 
+
+    
