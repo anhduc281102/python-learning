@@ -10,7 +10,7 @@ class baido:
     def ghisove(self, bienso, time,to ):
         vevao = phuongtien(bienso,self.mave)
         thoigianvao = camera(time, to)
-        self.danhsach.append(vevao, thoigianvao) 
+        self.danhsach.extend(vevao, thoigianvao) 
 
 class ve(baido):
     def __init__(self, sove ):
@@ -22,10 +22,11 @@ class phuongtien:
         self.bienso = bienso 
     
 class camera:
-    def __init__(self, bienso, time, ):
+    def __init__(self, baido, bienso, time, ):
+        self.baido = baido
         self.bienso = bienso
         self.time = time 
     def send(self, bienso, time, to):
-        self.baido.ghisove(bienso, time, to)
+        self. baido.ghisove(bienso, time, to)
 
     
