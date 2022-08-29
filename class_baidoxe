@@ -2,27 +2,30 @@ from time import time
 
 
 class baido:
-    def __init__(self, ten , sove, danhsach = []):
+    def __init__(self, ten , mabai, danhsach = []):
         self.ten = ten
-        self.sove = sove
+        self.mave = mabai
         self.danhsach = danhsach
     
-    def ghisove(self, name, sove, time ):
-        vevao = phuongtien(name,self.sove)
-        thoigianvao = camera(time)
+    def ghisove(self, bienso, time,to ):
+        vevao = phuongtien(bienso,self.mave)
+        thoigianvao = camera(time, to)
         self.danhsach.append(vevao, thoigianvao) 
+
+class ve(baido):
+    def __init__(self, sove ):
+        self.sove= sove
 
 class phuongtien:
     def __init__(self, name, bienso  ):
         self.name = name 
         self.bienso = bienso 
     
-    def send(self, bienso, to):
-
 class camera:
-    def __init__(self, picture, time, ):
-        self.picture = picture
+    def __init__(self, bienso, time, ):
+        self.bienso = bienso
         self.time = time 
-    def send 
+    def send(self, bienso, time, to):
+        self.baido.ghisove(bienso, time, to)
 
     
