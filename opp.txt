@@ -32,7 +32,7 @@ b, tinh triu tuong: triu tuong hoa cac su vat
 c, ke thua: class cha, class con 
     class <name_cha>:
     ....
-    class <name_con>(<name_cha)):
+    class <name_con>(<name_cha>):
 d, tinh da hinh: lop cha dai dien de lam viec thay cho lop con 
 
 tim hieu cac ham data type, cach xu ly (CRUD)
